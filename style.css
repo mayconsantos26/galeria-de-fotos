@@ -2,14 +2,12 @@
 
 body {
     font-family: "Courier New", monospace;
-    margin: 0;
-    padding: 0;
     background: url(img/fundo.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 main {
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +28,6 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    padding: 10px; /* Evita que fique grudado na tela */
 }
 
 .item {
